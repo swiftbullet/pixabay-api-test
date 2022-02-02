@@ -2,7 +2,7 @@
   "name": "pixabay-api-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://swiftbullet.github.io",
+  "homepage": "https://swiftbullet.github.io/pixabay-api-test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
