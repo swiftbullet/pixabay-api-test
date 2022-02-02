@@ -46,6 +46,7 @@ export default function SearchBar({ setCards }: ISearchBar) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={handleEnterPressed}
+        spellCheck="false"
       />
       <input
         className={styles.submit}
