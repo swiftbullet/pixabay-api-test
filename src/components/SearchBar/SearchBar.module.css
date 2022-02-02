@@ -1,0 +1,34 @@
+.container {
+  --padding: 1rem;
+  --search-height: 2.5rem;
+  --button-width: 6rem;
+  --border-radius: 0.3rem;
+  padding: var(--padding) 0;
+  width: 100%;
+}
+
+.search {
+  height: var(--search-height);
+  width: calc(100% - var(--button-width));
+  padding-left: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-right: none;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  outline: none;
+}
+
+.search:focus {
+  border: 1px solid grey;
+  border-right: none;
+}
+
+.submit {
+  height: var(--search-height);
+  width: var(--button-width);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: translateY(2.5%);
+}
